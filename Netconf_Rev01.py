@@ -11,6 +11,8 @@ m = manager.connect(
 #test Rev03
 #test Rev04
 #test Rev05
+#test Rev06
+#test Rev07
 
 netconf_reply = m.get_config(source="running")
 print(netconf_reply)
